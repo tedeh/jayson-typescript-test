@@ -4,6 +4,6 @@
   "private": true,
   "dependencies": {
     "@types/node": "^10.3.5",
-    "jayson": "github:tedeh/jayson#typescript"
+    "jayson": "https://github.com/tedeh/jayson#e8b231e"
   }
 }
