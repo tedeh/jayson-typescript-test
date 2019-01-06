@@ -1,7 +1,7 @@
 import jayson = require('../../../master');
 
 var server = new jayson.Server({
-  ping: function(args, callback) {
+  ping: function(args:any, callback:any) {
     // do something, do nothing
     callback();
   }

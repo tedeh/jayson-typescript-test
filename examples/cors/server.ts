@@ -6,7 +6,7 @@ var jsonParser = require('body-parser').json;
 var app = connect();
 
 var server = new jayson.Server({
-  myNameIs: function(args, callback) {
+  myNameIs: function(args:any, callback:any) {
     callback(null, 'Your name is: ' + args.name);
   }
 });

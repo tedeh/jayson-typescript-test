@@ -9,7 +9,7 @@ var reqs = [
   client.request('rejection', [])
 ];
 
-Promise.all(reqs).then(function(responses) {
+Promise.all(reqs).then(function(responses:any) {
   console.log(responses[0].result);
   console.log(responses[1].error);
 });

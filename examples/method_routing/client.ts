@@ -6,7 +6,7 @@ var client = jayson.Client.http({
 });
 
 // invoke "add_2"
-client.request('add_2', [3], function(err, response) {
+client.request('add_2', [3], function(err:any, response:any) {
   if(err) throw err;
   console.log(response.result); // 5!
 });

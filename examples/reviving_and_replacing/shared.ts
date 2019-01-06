@@ -1,10 +1,12 @@
-var Counter = exports.Counter = function(value?:any) {
-  this.count = value || 0;
-};
-
-Counter.prototype.increment = function() {
-  this.count += 1;
-};
+class Counter {
+  count:number;
+  constructor(value?:number) {
+    this.count = value || 0;
+  }
+  increment() {
+    this.count += 1;
+  }
+}
 
 exports.replacer = function(key:any, value:any) {
   if(value instanceof Counter) {
@@ -15,8 +17,7 @@ exports.replacer = function(key:any, value:any) {
 
 exports.reviver = function(key:any, value:any) {
   if(value && value.$class === 'counter') {
-    var obj = new Counter();
-    for(var prop in value.$props) obj[prop] = value.$props[prop];
+    var obj = new Counter(value.$props.count);
     return obj;
   }
   return value;

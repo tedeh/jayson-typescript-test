@@ -4,7 +4,7 @@ var connect = require('connect');
 var app = connect();
 
 var server = new jayson.Server({
-  add: function(args, callback) {
+  add: function(args:any, callback:any) {
     callback(null, args[0] + args[1]);
   }
 });

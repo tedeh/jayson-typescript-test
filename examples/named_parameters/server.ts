@@ -1,7 +1,7 @@
 import jayson = require('../../../master');
 
 var server = new jayson.Server({
-  add: function(a, b, callback) {
+  add: function(a:any, b:any, callback:any) {
     callback(null, a + b);
   }
 }, {
