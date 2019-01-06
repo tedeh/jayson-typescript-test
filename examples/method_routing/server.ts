@@ -1,4 +1,4 @@
-import jayson = require('../../../master');
+import jayson = require('jayson');
 
 var methods = {
   add: function(args:any, callback:any) {

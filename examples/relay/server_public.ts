@@ -1,4 +1,4 @@
-import jayson = require('../../../master');
+import jayson = require('jayson');
 
 // create a server where "add" will relay a localhost-only server
 var server = new jayson.Server({

@@ -1,4 +1,4 @@
-import jayson = require('../../../master/promise');
+import jayson = require('jayson/promise');
 
 var client = jayson.Client.http({
   port: 3000

@@ -1,4 +1,4 @@
-import jayson = require('../../../master');
+import jayson = require('jayson');
 
 var cors = require('cors');
 var connect = require('connect');

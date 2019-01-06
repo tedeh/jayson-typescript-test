@@ -1,4 +1,4 @@
-import jayson = require('../../../master');
+import jayson = require('jayson');
 var fs = require('fs');
 var path = require('path');
 

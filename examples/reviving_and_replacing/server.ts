@@ -1,4 +1,4 @@
-import jayson = require('../../../master');
+import jayson = require('jayson');
 var shared = require('./shared');
 
 // Set the reviver/replacer options

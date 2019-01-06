@@ -1,4 +1,4 @@
-import jayson = require('../../../master');
+import jayson = require('jayson');
 
 // create a server
 var server = new jayson.Server({

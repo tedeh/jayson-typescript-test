@@ -1,4 +1,4 @@
-import jayson = require('../../../master');
+import jayson = require('jayson');
 var _ = require('lodash');
 
 var methods = {

@@ -1,4 +1,4 @@
-import jayson = require('../../../master');
+import jayson = require('jayson');
 var jsonParser = require('body-parser').json;
 var connect = require('connect');
 var app = connect();

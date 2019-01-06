@@ -1,4 +1,4 @@
-import jayson = require('../../../master');
+import jayson = require('jayson');
 
 var client = jayson.Client.http({
   port: 3000 // the port of the frontend server

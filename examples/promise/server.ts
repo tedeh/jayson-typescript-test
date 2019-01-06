@@ -1,4 +1,4 @@
-import jayson = require('../../../master/promise');
+import jayson = require('jayson/promise');
 var _ = require('lodash');
 
 var server = new jayson.Server({
