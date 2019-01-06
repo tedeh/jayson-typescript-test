@@ -1,0 +1,10 @@
+import jayson = require('../../../master');
+
+var client = jayson.Client.http({
+  port: 3000
+});
+
+client.request('multiply', [5, 5], function(err, error, result) {
+  if(err) throw err;
+  console.log(result); // 25
+});

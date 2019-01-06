@@ -1,0 +1,9 @@
+{
+  "name": "jayson-typescript-test-project",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@types/node": "^10.3.5",
+    "jayson": "github:tedeh/jayson#typescript"
+  }
+}
